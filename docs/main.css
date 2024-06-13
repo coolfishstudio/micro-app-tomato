@@ -293,6 +293,10 @@ a {
 .micro-app-tomato-backdrop-brTMWg {
   position: relative;
 }
+.micro-app-tomato-backdrop-brTMWg .micro-app-tomato-mask-cbLwap {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
 
 .micro-app-tomato-layout-HBoKko {
   display: flex;
@@ -333,7 +337,6 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  filter: blur(15px);
 }
 
 .micro-app-tomato-cover-qiYki1 {
